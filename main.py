@@ -22,7 +22,9 @@ def create_app(test_config=None):
 
         @lru_cache()
         def get(self):
-
+            """
+            127.0.0.1:5000/api/posts?tags=history,tech&sortBy=likes&direction=desc
+            """
 
             # Error messages
             error_tag_responses = {"error": "Tags parameter is required"}
