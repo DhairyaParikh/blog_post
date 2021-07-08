@@ -14,7 +14,7 @@ py -m pip install virtualenv
 ```
 For Linux/Mac os
 ```bash
-python3 -m pip install --user virtualenv
+python -m pip install --user virtualenv
 ```
 
 
