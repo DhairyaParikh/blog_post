@@ -43,13 +43,16 @@ Run following command to install all the requirement after starting virtual envi
 pip install -r requirements.txt
 ```
 # Step 3
-After compilation of all requirements for the project run following command
+After compilation of all requirements for the project run following command to export and set flask application
+```bash
+export FLASK_APP=main.py 
+```
 ```bash
 set FLASK_APP=main.py
 ```
 
 # Step 4
-Now start the flask
+Now start the flask application
 ```bash
 flask run
 ```
@@ -62,12 +65,12 @@ Application started at localhost with port 5000
 [127.0.0.1:5000/]( 127.0.0.1:5000/ )
 
 
-# Link to check /api/ping
+# Link to check Route 1 (/api/ping)
 Check the status for API connectivity status
 
 [127.0.0.1:5000/api/ping]( 127.0.0.1:5000/api/ping )
 
-# Link to check /api/posts
+# Link to check Route 2 (/api/posts)
 I am providing two different example to check the parameters
 
 -> Tag parameters are history and tech, sortBy is based on likes and in descending order 
